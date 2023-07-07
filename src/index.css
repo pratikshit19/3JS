@@ -43,7 +43,7 @@
   );
 }
 
-yellow-gradient {
+.yellow-gradient {
   background: #FFE4A7;
   background: linear-gradient(-90deg, #FFE4A7 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
