@@ -46,7 +46,7 @@ const About = () => {
       I am an intermediate Flutter Developer with industry level experience <br className='sm:block hidden' />building apps in Flutter. I also have knowledge in domains like <br className='sm:block hidden' />Frontend Web Development, ReactJS, 3JS
     </motion.p>
 
-    <div className='mt-20 flex flex-wrap gap-10'> 
+    <div className='mt-20 flex flex-wrap gap-10 ml-20'> 
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index}{...service}/>
         ))}

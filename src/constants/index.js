@@ -1,4 +1,5 @@
 import {
+    
     mobile,
     backend,
     creator,
@@ -11,6 +12,8 @@ import {
     redux,
     tailwind,
     nodejs,
+    flutter,
+    bootstrap,
     mongodb,
     git,
     figma,
@@ -18,11 +21,13 @@ import {
     meta,
     starbucks,
     tesla,
+    aigro,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    aigroapp,
   } from "../assets";
   
   export const navLinks = [
@@ -42,21 +47,18 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Flutter Developer",
+      icon: flutter,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "ReactJS Developer",
+      icon: reactjs,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Front-end Developer",
+      icon: html,
     },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    
   ];
   
   const technologies = [
@@ -72,17 +74,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -93,8 +88,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Flutter",
+      icon: flutter,
     },
     {
       name: "Three JS",
@@ -109,64 +104,38 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "bootstrap",
+      icon: bootstrap,
     },
+    
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Flutter App Developer",
+      company_name: "AigroEdge Technologies",
+      icon: aigro,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing a flutter applications using Dart and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "ReactJS Developer",
+      company_name: "Self",
+      icon: reactjs,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing a simple web application for searching a movie using React.js .",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
   ];
   
   const testimonials = [
@@ -198,67 +167,86 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "TinDog - Tinder for dogs",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users(dogs) to search for a match required for their well-being.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "JavaScript",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "orange-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/pratikshit19/webDev",
     },
     {
-      name: "Job IT",
+      name: "Moving Object Detection",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Python implementation for detecting moving objects from a mounted camera. Tracked objects in enclosed boxes, used Edge detection, mapping, OpenCV",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "opencv",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "edgedetection",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/pratikshit19",
     },
     {
-      name: "Trip Guide",
+      name: "Flutter Application",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developing a flutter applications using Dart and other related technologies for farmers to help optimize farming methods and provide them with timely suggestions to prevent any crop failure",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
+        
+      ],
+      image: aigroapp,
+      source_code_link: "https://github.com/pratikshit19/FlutterApp-AigroEdge-Tech",
+    },
+    {
+      name: "Movie Search Page",
+      description:
+        "A comprehensive movie page that allows users to search for any movie they desire. This was my first ever ReactJS project to learn the basic of react and its components",
+      tags: [
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "reactjs",
+          color: "blue-text-gradient",
         },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/pratikshit19/ReactJS---Movie_search_page",
     },
   ];
   

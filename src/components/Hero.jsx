@@ -13,7 +13,7 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi! I'm <span className='text-[#FFE4A7]'>Pratikshit</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi! I'm <span className='text-secondary'>Pratikshit</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a Flutter Developer and Front-end <br className='sm:block hidden' />web developer with keen knowledge in many technologies</p>
         </div>
