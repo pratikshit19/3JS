@@ -28,7 +28,7 @@ import {
     tripguide,
     threejs,
     aigroapp,
-  } from "./assets";
+  } from "../assets";
   
   export const navLinks = [
     {
